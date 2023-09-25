@@ -1,0 +1,14 @@
+.circle {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 3px solid black;
+    border-top: 3px solid pink;
+    animation: ani 1s infinite;
+}
+
+@keyframes ani {
+    100% {
+        transform: rotate(360deg);
+    }
+}
